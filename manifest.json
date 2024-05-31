@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "No More Messi",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
