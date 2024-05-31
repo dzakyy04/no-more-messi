@@ -4,7 +4,7 @@ Fun Project for the [Hackathon Konyol](https://www.hackathonkonyol.com/) Event.
 
 ## Feature
 
-When you open the website and encounter the word "Messi," a Cristiano Ronaldo gif will appear. HAHAHA SIIUUUUU.
+When you open the website and encounter the word "Messi," a Cristiano Ronaldo gif will appear. HEHEHE SIIUUUUU.
 
 ## How to run
 
@@ -18,3 +18,6 @@ When you open the website and encounter the word "Messi," a Cristiano Ronaldo gi
 5. Turn on developer mode.
 6. Click the Load Unpacked button.
 7. Select the folder that was previously extracted.
+
+## Result
+[Result No More Messi](assets/result.png)
