@@ -12,7 +12,6 @@ function closeRonaldo() {
       element.style.left = '-100%';
     });
 
-    // Menghapus elemen-elemen setelah geser
     setTimeout(() => {
       ronaldoElements.forEach(element => {
         element.remove();
@@ -21,7 +20,7 @@ function closeRonaldo() {
       if (closeButton) {
         closeButton.remove();
       }
-    }, 500); // Menyesuaikan dengan durasi transisi
+    }, 500);
 }
 
 
@@ -76,7 +75,7 @@ function addRonaldo() {
 
   const closeButton = document.createElement('button');
   closeButton.id = 'closeButton';
-  closeButton.textContent = 'Tutup';
+  closeButton.textContent = 'Close';
   closeButton.style.position = 'fixed';
   closeButton.style.top = '10px';
   closeButton.style.right = '10px';
